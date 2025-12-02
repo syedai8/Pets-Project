@@ -386,15 +386,15 @@ section[class="slogan/pic"] {
 
 .shelter-img {
     width: 100%;
-    height: 150px;
+    height: 180px;
     background: #eee;
     border-radius: 12px;
     margin-bottom: 15px;
 }
 
 .shelter-img img {
-    width: 90px;
-    height: 80px;
+    width: 100%;
+    height: 180px;
 }
 
 .shelter-caption {
