@@ -83,14 +83,16 @@ section[class="slogan/pic"] {
   display: flex;
   align-items: center;
   justify-content: center;
-    width: 200px;
-    height: 200px;
+    width: 800px;
+    height: 600px;
 }
 
 .pic img {
   width: 100%;
-  height: 200px;
+  height: 100%;
   border-radius: 10px;
+    align-items: center;
+  justify-content: center;
 }
 
 .nav-grid {
