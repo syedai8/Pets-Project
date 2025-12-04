@@ -48,11 +48,12 @@ header {
   height: 45px;
   border-radius: 50%;
   border: 2px solid #999;
+    overflow: hidden;   
 }
 
 .icon img {
-    width: 45px;
-    height: 45px;
+    object-fit: cover;
+  object-position: center;
 }
 
 section[class="slogan/pic"] {
@@ -85,14 +86,13 @@ section[class="slogan/pic"] {
   justify-content: center;
     width: 800px;
     height: 600px;
+    overflow: hidden;   
 }
 
 .pic img {
-  width: 100%;
-  height: 100%;
   border-radius: 10px;
-    align-items: center;
-  justify-content: center;
+  object-fit: cover;
+  object-position: center;
 }
 
 .nav-grid {
@@ -151,6 +151,7 @@ section[class="slogan/pic"] {
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);
     text-align: center;
     transition: transform 0.25s ease;
+    overflow: hidden;
 }
 
 .cat-card:hover {
@@ -161,7 +162,7 @@ section[class="slogan/pic"] {
     width: 100%;
     height: 180px;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 12px; 
 }
 
 .cat-card h3 {
@@ -360,6 +361,12 @@ section[class="slogan/pic"] {
     justify-content: center;
     gap: 25px;
     margin-bottom: 45px;
+    overflow: hidden; 
+}
+
+.about-icon img {
+    object-fit: cover;         
+  object-position: center;
 }
 
 .about-circle {
@@ -399,11 +406,12 @@ section[class="slogan/pic"] {
     background: #eee;
     border-radius: 12px;
     margin-bottom: 15px;
+    overflow: hidden;
 }
 
 .shelter-img img {
-    width: 100%;
-    height: 200px;
+    object-fit: cover;         
+  object-position: center;
 }
 
 .shelter-caption {
