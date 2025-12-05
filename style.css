@@ -358,6 +358,13 @@ section[class="slogan/pic"] {
     margin-bottom: 20px;
 }
 
+.about-circles {
+    display: flex;               
+    justify-content: center; 
+    gap: 20px;           
+    flex-wrap: wrap;        
+    margin-top: 20px;     
+}
 .about-circle {
     width: 70px;
     height: 70px;
